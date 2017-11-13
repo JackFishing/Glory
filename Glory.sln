@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glory.CSharp", "Glory.CSharp.csproj", "{D639224A-3EE4-29C5-6080-4DB899A1B8B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D639224A-3EE4-29C5-6080-4DB899A1B8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D639224A-3EE4-29C5-6080-4DB899A1B8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D639224A-3EE4-29C5-6080-4DB899A1B8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D639224A-3EE4-29C5-6080-4DB899A1B8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
