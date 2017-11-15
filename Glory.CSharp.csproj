@@ -81,27 +81,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Foundation\Extensions\DictionaryExtension.cs" />
+    <Compile Include="Assets\Foundation\Extensions\TransformExtension.cs" />
+    <Compile Include="Assets\Foundation\GameRoot.cs" />
+    <Compile Include="Assets\Foundation\Localization\Localization.cs" />
+    <Compile Include="Assets\Foundation\Localization\LocalizedText.cs" />
+    <Compile Include="Assets\Foundation\Singleton.cs" />
+    <Compile Include="Assets\Foundation\UIBase\AnimateView.cs" />
+    <Compile Include="Assets\Foundation\UIBase\BaseContext.cs" />
+    <Compile Include="Assets\Foundation\UIBase\BaseView.cs" />
+    <Compile Include="Assets\Foundation\UIBase\ContextManager.cs" />
+    <Compile Include="Assets\Foundation\UIBase\UIManager.cs" />
+    <Compile Include="Assets\Foundation\UIBase\UIType.cs" />
+    <Compile Include="Assets\Foundation\UIComponent\GridScroller.cs" />
+    <Compile Include="Assets\Foundation\UIEffect\BlendColor.cs" />
+    <Compile Include="Assets\Foundation\UIEffect\GradientColor.cs" />
     <Compile Include="Assets\SimpleJSON\SimpleJSON.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\Extensions\DictionaryExtension.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\Extensions\TransformExtension.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\GameRoot.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\Localization\Localization.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\Localization\LocalizedText.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\Singleton.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIBase\AnimateView.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIBase\BaseContext.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIBase\BaseView.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIBase\ContextManager.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIBase\UIManager.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIBase\UIType.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIComponent\GridScroller.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIEffect\BlendColor.cs" />
-    <Compile Include="Assets\_Scripts\Foundation\UIEffect\GradientColor.cs" />
-    <Compile Include="Assets\_Scripts\Views\HighScoreItem.cs" />
-    <Compile Include="Assets\_Scripts\Views\HighScoreView.cs" />
-    <Compile Include="Assets\_Scripts\Views\MainMenuView.cs" />
-    <Compile Include="Assets\_Scripts\Views\NextMenuView.cs" />
-    <Compile Include="Assets\_Scripts\Views\OptionMenuView.cs" />
+    <Compile Include="Assets\_Scripts\Views\AchievementSystemPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\ActivityPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\BattleWatchingPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\CommunityPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\CompetitionPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\GrowthSystemPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\HeroPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\MunuPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\StorePanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\TeamPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\knapsackPanelView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
