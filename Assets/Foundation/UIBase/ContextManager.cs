@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine.SceneManagement;
 /*
  *	
  *  Manage Context For UI Stack
@@ -19,10 +19,19 @@ namespace MoleMole
 
         /// <summary>
         /// 构造函数 创建初始界面
+        /// 根据场景创建初始界面
         /// </summary>
         private ContextManager()
         {
-            Push(new MenuContext());
+            if (SceneManager.GetActiveScene().name == "Main")
+            {
+                Push(new MainMenuPanelContext());
+            }
+            else if (SceneManager.GetActiveScene().name == "Menu")
+            {
+                Push(new MenuContext());
+            }
+           
         }
 
         /// <summary>
@@ -31,7 +40,6 @@ namespace MoleMole
         /// <param name="nextContext"></param>
         public void Push(BaseContext nextContext)
         {
-            Debug.Log(1);
             if (_contextStack.Count != 0)
             {
                 BaseContext curContext = _contextStack.Peek();//返回栈顶部的当前的对象 但是不删除它

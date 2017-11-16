@@ -26,7 +26,6 @@ namespace MoleMole
 
         public static void Create()
         {
-           // Debug.Log();
             _instance = (T)Activator.CreateInstance(typeof(T), true);
 
             return;
@@ -37,7 +36,6 @@ namespace MoleMole
         {
             get
             {
-                Debug.Log(_instance);
                 return _instance;
             }
         }

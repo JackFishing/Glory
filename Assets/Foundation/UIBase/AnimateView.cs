@@ -19,22 +19,26 @@ namespace MoleMole
 
         public override void OnEnter(BaseContext context)
         {
-            _animator.SetTrigger("OnEnter");
+            //_animator.SetTrigger("OnEnter");
+           this.gameObject.SetActive(true);
         }
 
         public override void OnExit(BaseContext context)
         {
-            _animator.SetTrigger("OnExit");
+           // _animator.SetTrigger("OnExit");
+           this.gameObject.SetActive(false);
         }
 
         public override void OnPause(BaseContext context)
         {
-            _animator.SetTrigger("OnPause");
+           // _animator.SetTrigger("OnPause");
+            this.gameObject.SetActive(false);
         }
 
         public override void OnResume(BaseContext context)
         {
-            _animator.SetTrigger("OnResume");
+          //  _animator.SetTrigger("OnResume");
+            this.gameObject.SetActive(true);
         }
 
 	}
